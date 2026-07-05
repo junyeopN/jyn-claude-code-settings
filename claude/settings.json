@@ -3,5 +3,21 @@
     "defaultMode": "default"
   },
   "effortLevel": "high",
-  "autoUpdatesChannel": "latest"
+  "autoUpdatesChannel": "latest",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"E:/claude-config\" 2>/dev/null && { bash sync-from-machine.sh >/dev/null 2>&1; git add -A >/dev/null 2>&1; git diff --cached --quiet || { git commit -m \"Auto-sync Claude Code config\" >/dev/null 2>&1 && git push origin main >/dev/null 2>&1; }; }; true",
+            "shell": "bash",
+            "async": true,
+            "timeout": 120,
+            "statusMessage": "Syncing Claude config..."
+          }
+        ]
+      }
+    ]
+  }
 }

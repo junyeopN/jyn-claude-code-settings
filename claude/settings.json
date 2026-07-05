@@ -3,5 +3,6 @@
     "defaultMode": "default"
   },
   "effortLevel": "high",
-  "autoUpdatesChannel": "latest"
+  "autoUpdatesChannel": "latest",
+  "testHookMarker": "temp-value-for-hook-test"
 }

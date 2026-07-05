@@ -1,0 +1,9 @@
+{
+  "skills": [
+    {
+      "name": "unreal-engine",
+      "source": "git",
+      "url": "https://github.com/DSTN2000/claude-unreal-engine-skill"
+    }
+  ]
+}

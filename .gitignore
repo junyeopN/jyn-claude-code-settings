@@ -1,0 +1,14 @@
+# Never sync secrets or machine/session state
+.credentials.json
+*.token
+history.jsonl
+cache/
+downloads/
+paste-cache/
+projects/
+session-env/
+sessions/
+shell-snapshots/
+backups/
+ide/
+.marketplaces-to-clone.tmp

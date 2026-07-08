@@ -10,5 +10,11 @@
       "source": "github",
       "repo": "obra/superpowers-marketplace"
     }
+  },
+  "claude-video": {
+    "source": {
+      "source": "github",
+      "repo": "bradautomates/claude-video"
+    }
   }
 }

@@ -16,5 +16,17 @@
       "source": "github",
       "repo": "bradautomates/claude-video"
     }
+  },
+  "understand-anything": {
+    "source": {
+      "source": "github",
+      "repo": "Lum1104/Understand-Anything"
+    }
+  },
+  "agentmemory": {
+    "source": {
+      "source": "github",
+      "repo": "rohitg00/agentmemory"
+    }
   }
 }

@@ -20,13 +20,27 @@
   },
   "enabledPlugins": {
     "superpowers@superpowers-marketplace": true,
-    "watch@claude-video": true
+    "watch@claude-video": true,
+    "understand-anything@understand-anything": true,
+    "agentmemory@agentmemory": true
   },
   "extraKnownMarketplaces": {
     "claude-video": {
       "source": {
         "source": "github",
         "repo": "bradautomates/claude-video"
+      }
+    },
+    "understand-anything": {
+      "source": {
+        "source": "github",
+        "repo": "Lum1104/Understand-Anything"
+      }
+    },
+    "agentmemory": {
+      "source": {
+        "source": "github",
+        "repo": "rohitg00/agentmemory"
       }
     }
   },
